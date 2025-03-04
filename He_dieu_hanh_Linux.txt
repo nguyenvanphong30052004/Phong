@@ -1,0 +1,34 @@
+shutdown -h now : tắt máy
+cd: đường dẫn
+pwd : hiển thị thư mục hiện tại
+cd/path /to/ dierectory: di chuyển đến một thư mục cụ thể
+cd ~ : di chuyển đến thư mục gốc người dùng
+cd .. : di chuyển đến thư mục cha
+cd - : di chuyển đến thư mục trước đó
+cd $HOME : di chuyển đến thư mục đã thêm vào biến môi trườngg
+sd-john : di chuyển đến thư mục HOME của một người cụ thể
+* câu lệnh ls:
+	-L / : hiển file(chỉ hiển thị tên)
+	-l / :hiển file (gồm nhiều cột : filename,size,date,..)
+	-a / :hiển file, bao gồm những file ẩn.
+	-R /:liệt kê tất cả các file kể cả các file bên trong mục son
+* tạo thư mục mới:mkdir
+	-p: cho phép tạo thư mục con ngay cả khi chưa có thư mục cha
+* xem cây thư mục : tree
+* xóa thư mục rỗng: rmdir
+	-p : xóa thư mục và cả thư mục cha
+* tạo tệp tin với nd text: echo
+vd: echo "Linux " >> data/vidu
+* tạo tệp tin rỗng: touch
+vd : touch data/test.doc
+* lệnh xem nd ập tin:  cat
+vd: cat data/vidu.txt
+* lệnh copy: cp
+	-R,-r: sao chép toàn bộ thư mục
+* lệnh di chuyển : mv
+	-i: nhắc trc di chuyển với tập tin/ thư mục đích đã có rồi
+	-f: ghi đè khi di chuyển tâp tin/ thư mục đích đã có rồi
+* lệnh xóa tập tin/ thư mục: rm
+	-f : xóa không cần hỏi
+	-i hỏi trc khi xóa
+	-ir: vừa thông báo ra nhưng xóa thư mục
